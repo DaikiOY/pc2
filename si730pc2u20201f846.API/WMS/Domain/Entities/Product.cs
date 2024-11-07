@@ -11,9 +11,7 @@ namespace si730pc2u20201f846.Domain.Entities
         public int Status { get; set; }
         public int Quantity { get; set; } = 0;
         public DateTime CreatedAt { get; private set; } = DateTime.UtcNow;
-        public DateTime? UpdatedAt { get; set; }
 
-        // Constructor simplificado
         public Product(string productName, string sku, int categoryId, int status)
         {
             ProductName = productName;

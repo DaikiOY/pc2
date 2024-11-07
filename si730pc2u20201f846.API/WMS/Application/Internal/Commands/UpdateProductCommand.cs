@@ -10,7 +10,6 @@ namespace si730pc2u20201f846.API.WMS.Application.Internal.Commands
         public Guid ProductId { get; set; } 
         public DateTime? UpdatedAt { get; set; } = DateTime.UtcNow; 
 
-        // Constructor with required property
         public UpdateProductCommand(Guid productId)
         {
             ProductId = productId;

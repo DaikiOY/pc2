@@ -14,7 +14,7 @@ namespace si730pc2u20201f846.API.WMS.Application.Internal.Commands
         public int Status { get; set; } = 1; 
         public int Quantity { get; set; } = 0; 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow; 
-        // Constructor with required properties
+
         public CreateProductCommand(string productName, string sku, int categoryId)
         {
             ProductName = productName;
